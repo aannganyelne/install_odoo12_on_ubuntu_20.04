@@ -56,6 +56,11 @@ pip3 install "libsass<1"
 ### Install wkhtmltopdf
 Download [disini](https://wkhtmltopdf.org/downloads.html)
 
+```sh
+sudo dpkg -i nama_file_wkhtmltopdf.deb
+sudo apt install -f
+```
+
 ### Install Odoo 12 Via Git
 ```sh
 git clone https://www.github.com/odoo/odoo --depth 1 --branch 12.0 --single-branch odoo12
