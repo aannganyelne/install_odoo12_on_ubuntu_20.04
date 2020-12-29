@@ -1,6 +1,6 @@
-#Install Odoo 12 on Ubuntu 20.04
+# Install Odoo 12 on Ubuntu 20.04
 
-##Install Postgres
+## Install Postgres
 ```sh
 sudo apt install postgresql-12
 
@@ -11,14 +11,14 @@ su - postgres
 createuser -P -s -e admin
 ```
 
-##Install Required libs
+## Install Required libs
 
-###NodeJs
+### NodeJs
 ```sh
 npm install -g less less-plugin-clean-css sass
 ```
 
-###Python and Libraries
+### Python and Libraries
 ```sh
 sudo apt install git python3-pip build-essential wget python3-dev \
 python3-venv python3-wheel libxslt-dev libzip-dev libldap2-dev \
@@ -27,12 +27,12 @@ libsasl2-dev python3-setuptools
 sudo python3 -m pip install virtualenv
 ```
 
-###Virtualenv
+### Virtualenv
 ```sh
 python3 -m virtualenv nama_folder_virtualenv
 ```
 
-### Virtualenv
+### Install pip Libs
 ```sh
 source nama_folder_virtualenv/bin/activate
 
@@ -49,7 +49,7 @@ pip3 install "Werkzeug<1"
 pip3 install "libsass<1"
 ```
 
-###Install Odoo 12 Via Git
+### Install Odoo 12 Via Git
 ```sh
 git clone https://www.github.com/odoo/odoo --depth 1 --branch 12.0 --single-branch odoo12
 
@@ -71,13 +71,13 @@ xmlrpc_port = 8069
 addons_path = /lokasi/odoo12/addons
 ```
 
-###Init Running odoo
+### Init Running odoo
 ```sh
 cd lokasi/folder/odoo12
 
 ./odoo-bin -c odoo.conf -d nama_db
 ```
 
-###Open Odoo
+### Open Odoo
 http://127.0.0.1:8069
 
