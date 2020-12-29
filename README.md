@@ -9,6 +9,10 @@ sudo su
 su - postgres
 
 createuser -P -s -e admin
+
+exit
+
+exit
 ```
 
 ## Install Required libs
