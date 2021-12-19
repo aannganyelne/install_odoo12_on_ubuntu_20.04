@@ -88,7 +88,7 @@ Untuk odoo 12:
 git clone https://www.github.com/odoo/odoo --depth 1 --branch 12.0 --single-branch nama_project_odoo
 ```
 
-Untuk odoo14
+Untuk odoo14:
 ```sh
 git clone https://www.github.com/odoo/odoo --depth 1 --branch 14.0 --single-branch nama_project_odoo
 ```
