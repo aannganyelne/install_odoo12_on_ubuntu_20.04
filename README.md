@@ -13,6 +13,8 @@ su - postgres
 ```sh
 createuser -P -s -e admin
 ```
+Untuk contoh disini passwordnya `admin` , nanti bisa sesuaikan dengan isi file `conf` odoo.
+
 ```sh
 exit
 ```
@@ -98,7 +100,7 @@ cd nama_project_odoo
 touch odoo.conf
 ```
 
-Isi odoo.conf
+Bual file konfigurasi (conf) misalnya `odoo.conf` . Isi odoo.conf:
 ```conf
 [options]
 ; This is the password that allows database operations:
