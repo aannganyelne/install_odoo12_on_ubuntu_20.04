@@ -1,8 +1,8 @@
-# Install Odoo 12 on Ubuntu 20.04, Debian 11
+# Install Odoo 12.0,14.0 on Ubuntu 20.04, Debian 11
 
 ## Install Postgres
 ```sh
-sudo apt install postgresql-12
+sudo apt install postgresql
 ```
 ```sh
 sudo su
@@ -79,12 +79,20 @@ sudo dpkg -i nama_file_wkhtmltopdf.deb
 sudo apt install -f
 ```
 
-### Install Odoo 12 Via Git
+### Install Odoo Via Git
+
+Untuk odoo 12:
 ```sh
-git clone https://www.github.com/odoo/odoo --depth 1 --branch 12.0 --single-branch odoo12
+git clone https://www.github.com/odoo/odoo --depth 1 --branch 12.0 --single-branch nama_project_odoo
 ```
+
+Untuk odoo14
 ```sh
-cd odoo12
+git clone https://www.github.com/odoo/odoo --depth 1 --branch 14.0 --single-branch nama_project_odoo
+```
+
+```sh
+cd nama_project_odoo
 ```
 ```sh
 touch odoo.conf
@@ -105,7 +113,10 @@ addons_path = /lokasi/odoo12/addons
 
 ### Init Running odoo
 ```sh
-cd lokasi/folder/odoo12
+source nama_folder_virtualenv/bin/activate
+```
+```sh
+cd lokasi/folder/nama_project_odoo
 ```
 ```sh
 ./odoo-bin -c odoo.conf -d nama_db
