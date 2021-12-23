@@ -62,7 +62,7 @@ gevent greenlet html2text Jinja2 lxml Mako MarkupSafe mock \
 num2words ofxparse passlib Pillow psutil psycogreen psycopg2-binary \
 pydot pyparsing PyPDF2 pyserial python-dateutil python-openid \
 pytz pyusb PyYAML qrcode reportlab requests six suds-jurko vatnumber \
-vobject XlsxWriter xlwt xlrd polib chardet
+vobject XlsxWriter xlwt xlrd polib chardet zeep
 ```
 ```sh
 pip3 install "Werkzeug<1"
