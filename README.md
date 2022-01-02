@@ -97,6 +97,9 @@ git clone https://www.github.com/odoo/odoo --depth 1 --branch 14.0 --single-bran
 cd nama_project_odoo
 ```
 ```sh
+mkdir data
+```
+```sh
 touch odoo.conf
 ```
 
@@ -110,7 +113,8 @@ db_port = 5432
 db_user = admin
 db_password = admin
 xmlrpc_port = 8069
-addons_path = /lokasi/odoo12/addons
+addons_path = /lokasi/nama_project_odoo/addons
+data_dir = /lokasi/nama_project_odoo/data
 ```
 
 ### Init Running odoo
