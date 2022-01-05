@@ -103,7 +103,7 @@ mkdir data
 touch odoo.conf
 ```
 
-Bual file konfigurasi (conf) misalnya `odoo.conf` . Isi odoo.conf:
+Edit file konfigurasi `odoo.conf` . Isi odoo.conf:
 ```conf
 [options]
 ; This is the password that allows database operations:
