@@ -35,7 +35,7 @@ npm install -g less less-plugin-clean-css sass
 ```sh
 sudo apt install git python3-pip build-essential wget python3-dev \
 python3-venv python3-wheel libxslt-dev libzip-dev libldap2-dev \
-libsasl2-dev python3-setuptools
+libsasl2-dev python3-setuptools libjpeg-dev
 ```
 ```sh
 sudo python3 -m pip install virtualenv
