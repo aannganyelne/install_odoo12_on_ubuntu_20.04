@@ -7,6 +7,12 @@ sudo apt install postgresql
 ```sh
 sudo su
 ```
+Di Debian 11 pada saat pertamakali instalasi service postgresql tidak langsung berjalan. Jalankan perintah berikut:
+
+```sh
+service postgresql start
+```
+Lalu login sebagai user posgres
 ```sh
 su - postgres
 ```
