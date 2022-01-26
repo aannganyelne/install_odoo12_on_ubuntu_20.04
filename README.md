@@ -83,6 +83,7 @@ Download <a href="https://wkhtmltopdf.org/downloads.html" target="_blank">disini
 ```sh
 sudo dpkg -i nama_file_wkhtmltopdf.deb
 ```
+Jika terjadi error dependency, jalankan perintah di bawah ini:
 ```sh
 sudo apt install -f
 ```
