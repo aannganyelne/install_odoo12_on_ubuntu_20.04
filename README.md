@@ -78,7 +78,7 @@ pip3 install "libsass<1"
 ```
 
 ### Install wkhtmltopdf
-Download [disini](https://wkhtmltopdf.org/downloads.html)
+Download <a href="https://wkhtmltopdf.org/downloads.html" target="_blank">disini</a>
 
 ```sh
 sudo dpkg -i nama_file_wkhtmltopdf.deb
