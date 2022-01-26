@@ -57,10 +57,10 @@ python3 -m virtualenv nama_folder_virtualenv
 source nama_folder_virtualenv/bin/activate
 ```
 ```sh
-pip install --upgrade pip
+pip3 install --upgrade pip
 ```
 ```sh
-pip install "setuptools<58.0.2"
+pip3 install "setuptools<58.0.2"
 ```
 ```sh
 pip3 install Babel decorator docutils ebaysdk feedparser gdata \
