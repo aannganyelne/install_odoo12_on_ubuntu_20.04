@@ -30,7 +30,7 @@ exit
 
 ## Install Required libs
 
-Install nodejsx
+Install nodejs dan npm:
 ```sh
 sudo apt install npm
 ```
