@@ -34,7 +34,7 @@ Install nodejsx
 ```sh
 sudo apt install npm
 ```
-npm install -g less less-plugin-clean-css sass
+Lalu install library nodejs di bawah ini:
 
 ### NodeJs
 ```sh
