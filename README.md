@@ -30,7 +30,11 @@ exit
 
 ## Install Required libs
 
-Install nodejs, lalu install library dibawah:
+Install nodejsx
+```sh
+sudo apt install npm
+```
+npm install -g less less-plugin-clean-css sass
 
 ### NodeJs
 ```sh
